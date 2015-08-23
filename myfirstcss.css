@@ -1,0 +1,38 @@
+html {
+    background-color: #808080;
+}
+
+body {
+    background-image: url("smallcherry.png");
+    background-repeat: no-repeat;
+    background-position: 95% 5%;
+    padding: 500px;
+}
+
+h1 {
+    color: lightyellow;
+    font-family: 'Pacifico', cursive;
+}
+
+#header {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    text-align: left;
+}
+
+#firstpara {
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    text-align: left;
+    font-family: 'Shadows Into Light', cursive;
+    color: lightcyan;
+    font-size: 24px;
+}
+
+#quote {
+    position: absolute;
+    left: 50px;
+    top: 300px;
+}
