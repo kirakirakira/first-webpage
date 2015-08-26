@@ -89,3 +89,16 @@ text-decoration: none;
 #navigation a:hover {
 color: yellow;
 } 
+
+#entries {
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    text-align: left;
+    width: 650px;
+    outline: gold dotted thick;
+    font-family: 'Yantramanav', cursive;
+    color: white;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+}
