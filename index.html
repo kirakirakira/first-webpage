@@ -7,17 +7,39 @@
         <title>My First Page</title>
         <link rel="stylesheet" href="myfirstcss.css">
     </head>
+    <style>
+    body {
+        background-image: url("smallcherry.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 95% 25%;
+        padding: 300px;
+    }
+    </style>
     <body>
-        <div id="bkgd-image"></div>
-        
-        <div id="navigation">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="blog.html">Blog</a>
-            <a href="resources.html">Resources</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Resume</a>
-            <a href="#">Contact</a>
+        <div class="wrapper"></div>
+            <div id="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="resources.html">Resources</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Resume</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div id="header">
+                <h1>My First Page</h1>
+            </div>
+
+            <div id="firstpara">
+                <p>Hey everyone! Welcome to my first website, I hope you like it!</p>
+            </div>
+
+            <div id="quote">
+                <img src="launchlatequote.jpg" alt="Launch too late">
+            </div>
+            <div class="push"></div>
         </div>
         
         <div id="header">
@@ -30,6 +52,12 @@
         
         <div id="quote">
             <img src="launchlatequote.jpg" alt="Launch too late">
+    
+        <div class="footer">
+            <div id="social">
+                <a href="https://github.com/kirakirakira" alt="Github"><img src="GitHub-Mark-64px.png"></a>
+                <a href="https://twitter.com/kirahartlage" alt="Twitter"><img src="TwitterLogo.png"></a>
+            </div>
         </div>
     </body>
 </html>

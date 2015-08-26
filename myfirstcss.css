@@ -1,14 +1,32 @@
+* {
+    margin: 0;
+}
+
 html {
     background-color: #808080;
+    height:100%;
 }
 
 body {
+    height:100%;
+}
 
+.wrapper {
+    min-heigh:100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+
+.footer, .push {
+    height: 4em;
+    padding: 25px;
 }
 
 #bkgd-image {
     background-image: url("smallcherry.png");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: 95% 25%;
     padding: 300px;
 }
@@ -19,20 +37,27 @@ h1 {
 }
 
 #header {
-    position: absolute;
+    position: fixed;
     left: 50px;
     top: 50px;
     text-align: left;
 }
 
 #firstpara {
-    position: absolute;
+    position: fixed;
     left: 50px;
     top: 150px;
     text-align: left;
     font-family: 'Shadows Into Light', cursive;
     color: lightcyan;
     font-size: 24px;
+}
+
+#social {
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    left:0
 }
 
 #listome {
@@ -54,7 +79,7 @@ li {
 }
 
 #quote {
-    position: absolute;
+    position: fixed;
     left: 50px;
     top: 300px;
 }
